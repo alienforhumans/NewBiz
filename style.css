@@ -1,0 +1,530 @@
+body{
+	color: #444!important;
+    font-family: "Open Sans", sans-serif!important;
+}
+
+header{
+	background-color: white;
+	box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+}
+h1{
+	font-weight: 700!important;
+	font-size: 48px;
+}
+/*body{
+	min-width: 400px!important;
+}*/
+.nav-link{
+	color: #2353C0!important;
+	font-size: 16px!important;
+	padding: 18px!important;
+	font-weight: 400;
+}
+.nav-link:hover{
+	color: #1385FF!important;
+}
+.navbar-nav .active{
+	color: #1385FF!important;
+}
+.dropdown-menu{
+	opacity: 0.95;
+}
+.navbar-brand img{
+	height: 25px;
+	width: auto;
+}
+.mainSec{
+	background-image: url(https://bootstrapmade.com/demo/themes/NewBiz/assets/img/intro-bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1020px;
+    margin-top: -400px;
+}
+.solutionIns{
+	color: #74B5FC!important;
+}
+.centered{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.roundpill{
+	border-radius: 40px;
+}
+
+.filledbtn{
+	border: 1px solid #007bff;
+	background-color: #007bff;
+	color: white;
+	padding: 10px 32px;
+	transition: all 0.2s;
+}
+.filledbtn:hover{
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+}
+
+.outlinebtn{
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	padding: 10px 32px;
+	transition: all 0.2s;
+}
+
+.outlinebtn:hover{
+	border: 1px solid #007bff;
+	background-color: #007bff;
+	color: white;
+}
+.centereddiv{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.mediaIcons{
+	font-size: 24px;
+	height: 60px;
+	width: 105px;
+	border: 2px solid #007bff;
+	transition: all 0.2s;
+}
+.mediaIcons i{
+	padding-top: 6px;
+	left: 50%;
+	top: 50%;
+	transform: translate(0%, 30%);
+	color: #007bff;
+	transition: all 0.2s;
+}
+
+.mediaabout:hover .mediaIcons{
+	background-color: #007bff;
+}
+.mediaabout:hover .mediaIcons i{
+	color: white;
+}
+.mediaHeadA{
+	color: black;
+	font-weight: 700;
+	font-size: 18px;
+}
+.mediaHeadA:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.ourService{
+	box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+	background-color: #ecf5ff;
+}
+
+.serviceMedia{
+	box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+	background-color: white;
+	transition: all 0.3s;
+	max-height: 168px;
+	padding: 40px;
+}
+
+.servicemediabody a{
+	font-size: 18px;
+	color: black!important;
+	transition: all 0.3s;
+}
+
+.serviceMedia:hover{
+	transform: translateY(-8px);
+}
+
+.serviceMedia:hover .servicemediabody a{
+	color: #007bff!important;
+	text-decoration: none;
+}
+
+.whyUs{
+	background-color: #004a99;
+}
+
+.card{
+	background-color: #00458f;
+	border-radius: 10px;
+	border: none;
+	transition: all 0.3s;
+}
+
+.card:hover{
+	background-color: #003b7a;
+}
+.card .card-body a{
+    transition: 0.3s ease-in-out;
+    border-bottom: #00458f solid 2px;
+}
+.card:hover .card-body a{
+    border-bottom-color: #00458f;
+}
+
+.card:hover .card-body a:hover{
+	border-bottom: 2px;
+    border-bottom: white solid 2px;
+    text-decoration: none;
+    color: white!important;
+}
+
+.card i{
+	font-size: 48px;
+    padding-top: 15px;
+    color: #bfddfe;
+}
+.card-title{
+	font-size: 22px;
+}
+.card-text{
+	color: #bfddfe;
+	font-size: 15px;
+}
+.counter span{
+	font-size: 48px;
+	color: white;
+}
+.counter p{
+	font-size: 15px;
+	color: #bfddfe;
+}
+
+.portfolioSec{
+	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.tabs li a{
+	border-radius: 40px!important;
+	padding: 6px 20px!important; 
+	background-color: #ecf5ff;
+	color: #007bff!important;
+	transition: all 0.3s;
+}
+
+.tabs li .active{
+	border-radius: 40px!important;
+	padding: 6px 20px!important; 
+	background-color: #ecf5ff;
+	color: white!important;
+}
+
+.tabs li a:hover{
+	border-radius: 40px!important;
+	padding: 6px 20px!important; 
+	background-color: #007bff ;
+	color: #ecf5ff!important;
+}
+
+
+.testimonials{
+	background-color: #ecf5ff;
+}
+
+.carousel-indicators li{
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+}
+.carouseltext h3{
+	font-size: 20px;
+	font-weight: 700;
+}
+.carouseltext h4{
+	font-size: 14px;
+	color: #999;
+}
+.carouseltext p{
+	font-style: italic;
+
+}
+.carousel-inner{
+    margin-left: 100px;
+}
+
+.contactlis ion-icon{
+	font-size: 32px;
+	color: #007bff;
+}
+
+.btnrnd{
+	border-radius: 40px!important;
+}
+
+.forminput:focus{
+	outline: none!important;
+	border: 1px solid #007bff!important;
+	box-shadow: none;
+}
+footer{
+	background-color: #00428a;
+}
+
+.subfooter{
+	background-color: #004a99;
+}
+
+.footertext h3{
+	font-size: 34px;
+	letter-spacing: 4px;
+	font-weight: 400!important;
+}
+
+.footertext p{
+	font-size: 13px;
+	color: #bfddfe;
+	line-height: 24px;
+}
+
+.font-weight-boldest{
+	font-weight: 900;
+}
+
+.footer-menu li a{
+	color: white!important;
+	text-decoration: none;
+	transition: all 0.3s;
+	font-size: 14px;
+}
+.footer-menu li a:hover{
+	color: #74b5fc!important;
+	text-decoration: none;
+}
+
+.social li a{
+	font-size: 18px;
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 5px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+.social li a:hover{
+    background: #0067d5;
+}
+.footercopy p a{
+	color: #bfddfe;
+	transition: all 0.2s;
+}
+.footercopy p a:hover{
+	color: #f1f7ff;
+	text-decoration: none;
+}
+.footerform input{
+	height: 33px;
+	padding: 6px 8px; 
+}
+.footerform button{
+	height: 33px;
+	color: white;
+	background-color: #007bff;
+	font-size: 14px;
+}
+.footerform button:hover{
+	color: white;
+	background-color: #0062cc;
+}
+
+.portfolio-info h4 a{
+	color: white
+}
+
+.portfolio-info{
+	display: none;
+	transition: all 0.3s;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:  rgba(0,49,102,0.57);
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-image{
+	transition: all 0.3s;
+}
+
+.portfolio-image:hover ~ .portfolio-info{
+    display: flex;
+}
+.portfolio-info:hover{
+	display: flex;
+}
+
+.link-tabs{
+	font-size: 18px;
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 5px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.link-tabs:hover{
+    background: #0067d5;
+    color: white;
+}
+.carousel-item{
+	margin-bottom: 50px;
+}
+.carousel-indicators li{
+	background-color: #ddd;
+}
+.carousel-indicators .active{
+	background-color: #007bff;
+}
+
+.carouseltext h4{
+	font-size: 14px;
+}
+
+.carouseltext h3{
+	font-size: 20px;
+	color: #111;
+	font-weight: 900;
+}
+
+.teamSec{
+	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+	margin-top: -49px;
+}
+
+#portfolio{
+	box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+.teamMember:hover{
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 1000;
+}
+
+.teamMembers:hover .teamMemberHover{
+	display: block!important;
+}
+
+.ourClientsSec{
+	background-color: #ecf5ff;
+	box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.clientsul{
+	border: 0.5px solid #d6eaff;
+}
+
+.clientsul li{
+	background-color: white;
+	border: 0.5px solid #d6eaff;
+	height: 160px;
+	padding: 64px;
+	transition: all 0.3s;
+}
+
+.clientsul li:hover{
+	padding: 48px;
+}
+.clientsul li:hover img{
+	margin-top: 25px;
+}
+
+.clientsul li img{
+	transform: translate(0%, -50%);
+	margin-top: 15px;
+}
+
+.navbar-toggler{
+	border: 0;
+}
+
+.navbar-toggler:focus{
+	box-shadow: none!important;
+	outline: none;
+}
+
+.navbar-toggler span{
+	color: #007bff!important;
+}
+
+@media only screen and (max-width: 992px) {
+	.clientsul li{
+		height: 350px;
+	}
+	.clientsul li img{
+		margin-top: 120px;
+	}
+	.clientsul li:hover{
+		padding: 48px;
+	}
+	.clientsul li:hover img{
+		margin-top: 145px;
+	}
+	iframe{
+		height: 410px;
+		margin-bottom: 15px;
+	}
+	.mediaIcons{
+		width: 195px;
+	}
+	#dropdownSecondMenuButton{
+		margin-left: 260px;
+	}
+	.portfolio-wrap{
+		display: flex;
+		justify-content: center!important;
+	}
+	.filter-app{
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 1090px) and (min-width: 992px){
+	.mediaIcons{
+		width: 128px;
+	}
+}
+
+@media only screen and (max-width: 678px){
+	h1{
+		font-size: 36px!important;
+	}
+}
+
+.form-control:invalid{
+	border: 1px solid red;
+}
+
+.form-control:valid{
+	border: 1px solid green;
+}
+
+button:focus{
+	box-shadow: none!important;
+	outline: none!important;
+}
+
+a[role="button"]:focus{
+	box-shadow: none!important;
+	outline: none!important;
+}
+
+.portfolioH4{
+	font-weight: 900;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+}
+.portfolioH4:hover{
+	text-decoration: none;
+	color: #007bff;
+}
